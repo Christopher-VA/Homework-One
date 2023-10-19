@@ -1,13 +1,16 @@
+/* * command stylises everything within the html tag */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* Styling that effects the body section of the html */
 body {
     background-color: #d9dcd6;
 }
 
+/* Styling that effects the header class of the html */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,6 +23,7 @@ body {
     font-size: 48px;
 }
 
+/* Styling that affects the header class of h1 with the class seo */
 .header h1 .seo {
     color: #d9dcd6;
 }
@@ -46,6 +50,7 @@ a {
     text-decoration: none;
 }
 
+/* Styling that affects all paragraphs within the html */
 p {
     font-size: 16px;
 }
@@ -188,6 +193,7 @@ p {
     font-size: 36px;
 }
 
+/* Styling that effects the footer class */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +201,7 @@ p {
     text-align: center;
 }
 
+/* Styling that effects only the h2 in the footer class */
 .footer h2 {
     font-size: 20px;
 }
